@@ -9,7 +9,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import cross_val_score, StratifiedShuffleSplit
 from sklearn.metrics import accuracy_score
 from methods import *
-
+from lasso_logistic_regression import lasso_sample
 
 # import data
 scaled_data = pd.read_csv('data/scaled_data.csv')
@@ -40,7 +40,6 @@ for i, method in enumerate(method_names):
   samples[method] = sample_results[i]
 
 # add sample for lasso logistic regression method to the samples dataframe
-lasso_sample = pd.read_csv('data/lasso_sample.csv', index_col=0)
 samples['lasso_logistic_regression'] = lasso_sample
 
 # load samples to csv

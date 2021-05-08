@@ -11,14 +11,13 @@ from sklearn.metrics import accuracy_score
 from methods import *
 
 # import data
-data = pd.read_csv('data/Time_to_think_Norbury.csv', sep=';')
+data = pd.read_csv('data/original_data.csv', sep=';')
 
 # drop irrelevant features
 data.drop(['Case_Number', 'PSQI_component_1', 'Daytime_Dozing', 'Start_time'], axis=1, inplace=True)
-data.to_csv('data/data.csv')
 
 # load data to csv
-data = pd.read_csv('data/sleep_data.csv')
+data.to_csv('data/processed_data.csv')
 
 
 # one_hot encoding for non-dichotomous categorical features

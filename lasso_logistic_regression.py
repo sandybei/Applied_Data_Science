@@ -27,16 +27,6 @@ logisticRegr = LogisticRegression(penalty='l1',  solver= 'saga', random_state=0,
 # generate sample using 10-fold cross-validation
 lasso_sample = cross_val_score(logisticRegr, X_train, y_train, cv=10)
 
-# load sample to csv
-lasso_df = pd.Series(lasso_sample,name='lasso_logistic_regression')
-lasso_df.to_csv('data/lasso_sample.csv')
-
-# confusion matrix
-logisticRegr.fit(X_train, y_train)
-y_pred = logisticRegr.predict(X_test)
-test_accuracy = accuracy_score(y_test, y_pred)
-print(round(test_accuracy, 2))
-
 
 # Feature Importance
 
