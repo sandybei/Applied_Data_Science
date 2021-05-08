@@ -1,8 +1,8 @@
 # Applied_Data_Science
 
-Tamara Rigo
-Theodoros Efthymiadis
-Kyriaki Bei
+Tamara Rigo n\
+Theodoros Efthymiadis \n
+Kyriaki Bei \n
 
 'Time to think: Subjective sleep quality, trait anxiety and university
 start time.', Ray Norbury , Simon Evans
