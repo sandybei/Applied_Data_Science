@@ -8,7 +8,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import cross_val_score, StratifiedShuffleSplit
 from sklearn.metrics import accuracy_score
-from methods import *
+from feature_subsets import *
 from lasso_logistic_regression import lasso_sample
 
 # import data
