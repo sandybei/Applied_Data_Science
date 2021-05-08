@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr 29 21:18:03 2021
-
-@author: tamar
-"""
+# creates a dictionary with the selected feature subsets
+# of each feature selection method
 
 stepwise_selection=['Trait_Anxiety',
  'Avg_Sleep_Working_days',
