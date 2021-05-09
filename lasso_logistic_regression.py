@@ -24,8 +24,7 @@ X_train, X_test, y_train, y_test = train_test_split( X, y, test_size=0.30, rando
 logisticRegr = LogisticRegression(penalty='l1',  solver= 'saga', random_state=0, max_iter=10000)
 
 # generate sample using 10-fold cross-validation
-lasso_sample = cross_val_score(logisticRegr, X, y, cv=10)
-
+lasso_sample = cross_val_score(logisticRegr, X_train, y_train, cv=10)
 
 # Feature Importance
 
@@ -41,3 +40,4 @@ feature_importance = feature_importance.sort_values(axis=0, ascending=False)
 # get bar plot for feature importances
 sns.set(rc={'figure.figsize':(11.7,8.27)})
 sns.barplot(x=feature_importance, y=feature_importance.index).set_title('Feature Importance')
+plt.show()
