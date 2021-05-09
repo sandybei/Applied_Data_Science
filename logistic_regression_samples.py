@@ -29,8 +29,7 @@ cv = StratifiedShuffleSplit(n_splits=10, random_state=0, test_size=0.2)
 sample_results = []
 y = scaled_data['psqi_2_groups']
 for df in scaled_data_dfs: 
-  X = df
-  results = cross_val_score(logisticRegr, X, y, cv=cv)
+  results = cross_val_score(logisticRegr,df, y, cv=cv)
   sample_results.append(results)
 
 # create dataframe with samples scores

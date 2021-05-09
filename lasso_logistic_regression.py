@@ -18,23 +18,22 @@ scaled_data = pd.read_csv('data/scaled_data.csv')
 # Split Data to Training and Test set
 y = scaled_data['psqi_2_groups']
 X = scaled_data.drop(['psqi_2_groups'], axis=1)
-X_train, X_test, y_train, y_test = train_test_split( X, y, test_size=0.20, random_state=42)
 
 
 # create model
 logisticRegr = LogisticRegression(penalty='l1',  solver= 'saga', random_state=0, max_iter=10000)
 
 # generate sample using 10-fold cross-validation
-lasso_sample = cross_val_score(logisticRegr, X_train, y_train, cv=10)
+lasso_sample = cross_val_score(logisticRegr, X, y, cv=10)
 
 
 # Feature Importance
 
 # get model's parameters
-logisticRegr.fit(X_train, y_train)
+logisticRegr.fit(X, y)
 importances = logisticRegr.coef_[0]
 
-feature_importance = pd.Series(data=importances, index=X_train.columns)
+feature_importance = pd.Series(data=importances, index=X.columns)
 feature_importance = feature_importance.abs()
 feature_importance = feature_importance.sort_values(axis=0, ascending=False)
 
