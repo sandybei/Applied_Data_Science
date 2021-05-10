@@ -25,7 +25,6 @@ def pairwise_wilcoxon(samples_df, groups_df):
 
 
 # Import the data
-# samples = pd.read_csv("C:\\Users\\Ires\\Desktop\\samples.csv", index_col=0)
 samples = pd.read_csv('data\\samples.csv', index_col=0)
 print(samples)
 
