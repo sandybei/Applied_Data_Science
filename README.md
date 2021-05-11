@@ -69,7 +69,7 @@ python lasso_logistic_regression_samples.py
 ```
 to generate the 5 samples of the Logistic Regression's accuracies scores for each one of the feature selection methods.
 
-### 4. Statistical Comparison
+### 5. Statistical Comparison
 Run the command: 
 ```
 python statistical_comparison.py
