@@ -32,6 +32,7 @@ lasso_sample = cross_val_score(logisticRegr, X_train, y_train, cv=10)
 logisticRegr.fit(X_train, y_train)
 importances = logisticRegr.coef_[0]
 
+# plot feautes' importance
 feature_importance = pd.Series(data=importances, index=X_train.columns)
 feature_importance = feature_importance.abs()
 feature_importance = feature_importance.sort_values(axis=0, ascending=False)

@@ -20,7 +20,7 @@ import statsmodels.api as sm
 
 
 # import data
-data = pd.read_csv('data/scaled_data.csv', sep=';')
+scaled_data = pd.read_csv('data/scaled_data.csv')
 
 # Split Data to Training and Test set
 y = scaled_data['psqi_2_groups']
