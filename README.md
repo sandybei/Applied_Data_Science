@@ -8,7 +8,7 @@ This repo has been created for the **Applied Research** exercise of the **Applie
 
 # Data
 The data we used for this project were collected by Ray Norbury and Simon Evans (2018) during their research about the associations between sleep quality, trait anxiety and university start time [[1]](https://doi.org/10.1016/j.psychres.2018.11.054) and have are uploaded online at Mendeley Data [[2]](https://data.mendeley.com/datasets/cbpxxtfc95/1).\
-They are also uploaded in a csv format inside the **data** folder of the repo with the name **original_data.csv**. 
+They are also uploaded in a csv format the **data** folder of the repo with the name **original_data.csv**. 
 
 
 # Installation
@@ -67,7 +67,7 @@ and then:
 ```
 python lasso_logistic_regression_samples.py
 ```
-to generate the 5 samples of the Logistic Regression's accuracies scores for each one of the feature selection methods. The samples have been loaded in a csv file and can be found in the **data** folder by the name **samples.csv**.
+to generate the 5 samples of the Logistic Regression's accuracies scores for each one of the feature selection methods. The samples have been uloaded in a csv file inside the **data** folder with the file name **samples.csv**.
 
 ### 5. Statistical Comparison
 Run the command: 
