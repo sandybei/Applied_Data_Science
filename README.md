@@ -4,6 +4,12 @@ Tamara Rigo -  tamara.rigo@studenti.unitn.it\
 Theodoros Efthymiadis - efthimiadisthodoris@gmail.com\
 Kyriaki Bei - sandybei058@gmail.com
 
+This repo has been created for the **Applied Research** exercise of the **Applied Data Science** course. In the **Usage** section you can find instructions to generate the results of our paper 'Introduction of prediction-based feature selection methods in computational psychology: An application in the psychology of sleep.'
+
+# Data
+The data we used for this project were collected by Ray Norbury and Simon Evans (2018) during their research about the associations between sleep quality, trait anxiety and university start time [[1]](https://doi.org/10.1016/j.psychres.2018.11.054) and have are uploaded online at Mendeley Data [[2]](https://data.mendeley.com/datasets/cbpxxtfc95/1).\
+They are also uploaded inside the **data** folder of the repo with the name **original_data.csv**. 
+
 
 # Installation
 
@@ -23,10 +29,6 @@ pip install mlxtend
 pip install scipy
 pip install statsmodels
 ```
-
-# Data
-The data that have been used for this project can be found online [[2]](https://data.mendeley.com/datasets/cbpxxtfc95/1) and are uploaded as a csv file inside the **data** folder of the repo with the name
-**original_data.csv**. 
 
 # Usage
 Follow the next steps to generate our resuls:
@@ -65,7 +67,7 @@ and then:
 ```
 python lasso_logistic_regression.py
 ```
-to generate the 5 samples with the accuracy of the Logistic Regression model for each one of the feature selection methods.
+to generate the 5 samples of the Logistic Regression's accuracies scores for each one of the feature selection methods.
 
 ### 4. Statistical Comparison
 Run the command: 
