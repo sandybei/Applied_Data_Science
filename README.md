@@ -1,5 +1,5 @@
 # General Info
-**Team members**:\
+### Team Members
 Tamara Rigo -  tamara.rigo@studenti.unitn.it\
 Theodoros Efthymiadis - efthimiadisthodoris@gmail.com\
 Kyriaki Bei - sandybei058@gmail.com
