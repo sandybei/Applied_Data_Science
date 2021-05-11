@@ -32,7 +32,7 @@ pip install statsmodels
 
 # Usage
 Follow the next steps to generate our resuls:
-## 1. Data Exploration
+### 1. Data Exploration
 Run the command:
 ```
 python data_exploration.py
@@ -40,7 +40,7 @@ python data_exploration.py
 to view information about the dataset, correlations between the features and to visualize their distributions.
 
 
-## 2. Data Pre-processing
+### 2. Data Pre-processing
 Run the command:
 ```
 python data_preprocessing.py
@@ -77,7 +77,7 @@ python statistical_comparison.py
 to perform the different statistical tests.
 
 
-# Reference
+# References
 [1] 'Time to think: Subjective sleep quality, trait anxiety and university
 start time.', Ray Norbury , Simon Evans. DOI: [https://doi.org/10.1016/j.psychres.2018.11.054](https://doi.org/10.1016/j.psychres.2018.11.054)\
 [2] [https://data.mendeley.com/datasets/cbpxxtfc95/1](https://data.mendeley.com/datasets/cbpxxtfc95/1), DOI:10.17632/cbpxxtfc95.1
