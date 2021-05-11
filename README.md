@@ -47,7 +47,7 @@ python data_preprocessing.py
 ```
 to generate 2 files:
 * **processed_data.csv**: These are the original data after the removal of irrelevant features,
-* **rescaled_data.csv**: These are the data from the abova file after they have been rescaled.
+* **rescaled_data.csv**: These are the data from the above file after they have been rescaled.
 
 Both of these files can be found inside the **data** folder.
 
