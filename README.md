@@ -8,7 +8,7 @@ Kyriaki Bei - sandybei058@gmail.com
 This repo has been created for the **Applied Research** exercise of the **Applied Data Science** course. In the **Usage** section you can find instructions for the generation of the results of our paper 'Introduction of prediction-based feature selection methods in computational psychology: An application in the psychology of sleep.'
 
 # Data
-The data we used for this project were collected by Ray Norbury and Simon Evans (2018) during their research about the associations between sleep quality, trait anxiety and university start time [[1]](https://doi.org/10.1016/j.psychres.2018.11.054) and have are uploaded online at Mendeley Data [[2]](https://data.mendeley.com/datasets/cbpxxtfc95/1). They are also uploaded in a csv format the **data** folder of the repo with the name **original_data.csv**. 
+The data we used for this project were collected by Ray Norbury and Simon Evans (2018) during their research about the associations between sleep quality, trait anxiety and university start time [[1]](https://doi.org/10.1016/j.psychres.2018.11.054) and are uploaded online at Mendeley Data [[2]](https://data.mendeley.com/datasets/cbpxxtfc95/1). They are also uploaded in a csv format the **data** folder of the repo with the name **original_data.csv**. 
 
 
 # Installation
