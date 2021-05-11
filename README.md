@@ -67,7 +67,7 @@ and then:
 ```
 python lasso_logistic_regression_samples.py
 ```
-to generate the 5 samples of the Logistic Regression's accuracies scores for each one of the feature selection methods.
+to generate the 5 samples of the Logistic Regression's accuracies scores for each one of the feature selection methods. The samples have been loaded in a csv file and can be found in the **data** folder by the name **samples.csv**.
 
 ### 5. Statistical Comparison
 Run the command: 
