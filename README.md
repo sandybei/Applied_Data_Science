@@ -4,6 +4,7 @@ Tamara Rigo -  tamara.rigo@studenti.unitn.it\
 Theodoros Efthymiadis - efthimiadisthodoris@gmail.com\
 Kyriaki Bei - sandybei058@gmail.com
 
+### Our Project
 This repo has been created for the **Applied Research** exercise of the **Applied Data Science** course. In the **Usage** section you can find instructions for the generation of the results of our paper 'Introduction of prediction-based feature selection methods in computational psychology: An application in the psychology of sleep.'
 
 # Data
